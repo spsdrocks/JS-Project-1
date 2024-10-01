@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Weather Station</title>
+    <link href="JS-project-1-style.css" rel="stylesheet" type="text/css" />
+    <style></style>
+  </head>
+  
+  <body>
+  
+    <header class="flexbox">
+        <div>
+          <h1>Weather</h1>
+        </div>
+				<div>
+          <img src="https://i.pinimg.com/originals/30/b1/1a/30b11a92a85361de088b6d668785f0aa.jpg" alt="Weather Logo" class="logo-1" />
+        </div>
+		</header>
+    <br /><br /><br /><br />
+    <main>
+      <article class="flexbox" style="align-items: center;">
+
+      <!-- Not currently aligning flex content properly... fix -->
+
+
+
+
+
+        
+       <div style="width: 30%;"> 
+        <h1 id="name"></h1>
+        <h4>This is a weather website that shows the current tempeture, however we ask for user input about the current conditions to ensure the greatest accruacry in our recordings. We want to ensure our consumers wellbeing and suggest what to wear and bring outside with our amazing code. However, this website is only limited to the Greater Vancouver region due to testing constrants.</h4> <!--Introducing website -->
+
+
+
+
+
+
+
+
+         
+      <!--Prompting user for the current weather condition -->
+          <p>Please select the current weather condition</p>
+          <td>Sunny<input type="checkbox" id="sunny" name="weatherconditon" value="sunny" /> </td>
+          <td>Rainy<input type="checkbox" id="rainy" name="weatherconditon" value="rainy" /></td>
+          <td>Cloudy<input type="checkbox" id="cloudy" name="weatherconditon" value="cloudy" /></td>
+          <td>Stormy<input type="checkbox" id="stormy" name="weatherconditon" value="stormy" /></td>
+          <td>Windy<input type="checkbox" id="windy" name="weatherconditon" value="windy" /></td>
+          <button onclick="getValue()">Submit</button> 
+        </div>
+
+
+
+
+
+
+        
+        <div style="width: 30%; margin-left: 42em;">
+          <img src="https://images.theconversation.com/files/442675/original/file-20220126-17-1i0g402.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop" alt="Weather Veriety" class="weather-img-1">
+        </div>
+
+
+
+
+        
+      </article>
+
+
+
+
+      
+      <article style="background-color: grey;" >
+        <div class="grid-1">
+          <div>
+            <h1 class="center">Today's Weather Conditions</h1>
+            <br />
+            <h3 id="tempurature-conditions" class="center">It is</h3>
+            <br />
+            <h3 id="weather-conditions" class="center">It is</h3>
+          </div>
+          <div>
+            <h2 class="center">Today's Tempurature</h2>
+            <br />
+            <h3 id="temp-f" class="center">The tempurature in fahrenheit is</h3>
+            <h3 id="temp-c" class="center">The tempurature in celcius is</h3>
+            <h3 id="temp-k" class="center">The tempurature in kelvin is</h3>
+            <h3 id="temp-n" class="center">The tempurature in newtons is</h3>
+          </div>
+        </div>
+      </article>
+  
+  
+  
+  
+  
+      <article>
+        <div>
+          <h2 id="thank-you" class="center" style="margin: 0.5% 0% 0.5% 0%;">Thank you for visiting our website, please come again for current weather conditions!</h2>
+        </div>
+      </article>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+    </main>
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+
+ 
+  <!-- test code 
+    <p id-"name"></p>
+
+
+
+
+  -->
+  
+  
+  
+  
+    <script src="JS-project-1-script.js"></script>
+  
+   <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+    -->
+  <!--   <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>  -->
+  </body>
+  </main>
+</html>
